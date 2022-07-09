@@ -1,7 +1,7 @@
 import { Flex, Button, Heading } from '@chakra-ui/react';
 import Image from 'next/image';
 import React from 'react';
-import Navbar from '../Components/Navbar';
+import Navbar from '../components/Navbar';
 import MockUp from '../public/mockup.png';
 
 export interface IHeroProps {}
