@@ -37,7 +37,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
       <Flex gap="10px">
         <Button
           as="a"
-          href="https://matchup.vercel.com/"
+          href="https://matchup.vercel.app/"
           rounded="full"
           size="lg"
           backgroundColor="#F04D61"

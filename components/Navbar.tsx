@@ -41,7 +41,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
         <Button
           display={{ base: 'none', sm: 'flex' }}
           as="a"
-          href="https://matchup.vercel.com/"
+          href="https://matchup.vercel.app/"
           rounded="full"
           backgroundColor="#F04D61"
           color="white"

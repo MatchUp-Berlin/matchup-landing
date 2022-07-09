@@ -42,7 +42,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
             <Flex gap="10px">
               <Button
                 as="a"
-                href="https://matchup.vercel.com/"
+                href="https://matchup.vercel.app/"
                 rounded="full"
                 size="lg"
                 backgroundColor="#F04D61"
