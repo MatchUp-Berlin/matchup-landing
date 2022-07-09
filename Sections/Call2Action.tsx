@@ -40,7 +40,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
           href="https://matchup.vercel.com/"
           rounded="full"
           size="lg"
-          colorScheme="red"
+          backgroundColor="#F04D61"
           color="white"
           _hover={{ transform: 'scale(1.05)' }}
         >

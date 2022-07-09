@@ -45,7 +45,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
                 href="https://matchup.vercel.com/"
                 rounded="full"
                 size="lg"
-                colorScheme="red"
+                backgroundColor="#F04D61"
                 _hover={{ transform: 'scale(1.05)' }}
               >
                 Let's MatchUp!

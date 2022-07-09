@@ -43,7 +43,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           as="a"
           href="https://matchup.vercel.com/"
           rounded="full"
-          colorScheme="red"
+          backgroundColor="#F04D61"
           _hover={{ transform: 'scale(1.05)' }}
         >
           Download the app
