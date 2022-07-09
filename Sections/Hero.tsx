@@ -46,6 +46,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
                 rounded="full"
                 size="lg"
                 backgroundColor="#F04D61"
+                color="white"
                 _hover={{ transform: 'scale(1.05)' }}
               >
                 Let's MatchUp!
