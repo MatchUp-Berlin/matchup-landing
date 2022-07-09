@@ -1,8 +1,8 @@
 import { Flex, Heading } from '@chakra-ui/react';
 import React from 'react';
 import OverviewBG from '../public/overview-bg.png';
-import FeatureCard from '../Components/FeatureCard';
-import SectionDivider from '../Components/SectionDivider';
+import FeatureCard from '../components/FeatureCard';
+import SectionDivider from '../components/SectionDivider';
 
 export interface IFeaturesProps {}
 
