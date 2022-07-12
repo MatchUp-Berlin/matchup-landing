@@ -53,7 +53,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
               </Button>
               <Button
                 as="a"
-                href="https://youtu.be/vILG4DxNP4w"
+                href="https://youtu.be/h0MSADwMrlY"
                 rounded="full"
                 size="lg"
                 variant="outline"
