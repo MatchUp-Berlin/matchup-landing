@@ -9,12 +9,12 @@ export interface IHeroProps {}
 
 const Hero: React.FunctionComponent<IHeroProps> = () => {
   return (
-    <Flex direction="column">
+    <Flex  direction="column">
       {/* NAVBAR */}
       <Navbar />
 
       {/* HERO TITLE */}
-      <Flex gap={50} direction="column" justifyContent="center" alignItems="center">
+      <Flex zIndex={2} gap={50} direction="column" justifyContent="center" alignItems="center">
         <Flex
           minHeight="75vh"
           direction="column"
