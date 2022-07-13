@@ -16,12 +16,8 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
       {/* HERO TITLE */}
       <Flex gap={50} direction="column" justifyContent="center" alignItems="center">
         <Flex
-          minHeight="75vh"
+          minHeight="45vh"
           direction="column"
-          backgroundImage={` url('${HeroBG.src}')`}
-          backgroundRepeat="no-repeat"
-          backgroundPosition="bottom"
-          backgroundSize="contain"
           textAlign="center"
           justifyContent="center"
           alignItems="center"
@@ -64,7 +60,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
             </Flex>
           </Flex>
         </Flex>
-        <Flex mb="10em" width="500px" height="auto" justifyContent="center" alignItems="flex-start">
+        <Flex zIndex={1} mb="10em" width={{ base: "80vw", md: "50vw", lg: '500px' }} height="auto" justifyContent="center" alignItems="flex-start">
           <Image src={MockUp} layout="intrinsic" alt="iphone-mockup" />
         </Flex>
       </Flex>

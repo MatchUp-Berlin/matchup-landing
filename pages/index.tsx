@@ -8,6 +8,8 @@ import Features from '../Sections/Features';
 import Hero from '../Sections/Hero';
 import Link from 'next/link';
 import ShowCase from '../Sections/ShowCase';
+import HeroWave from '../components/Backgrounds/HeroWave';
+import BottomWave from '../components/Backgrounds/BottomWave';
 
 const Home: NextPage = () => {
   return (
@@ -36,6 +38,9 @@ const Home: NextPage = () => {
           >
             {/*-------- HERO SECTION --------*/}
             <Hero />
+            <Flex position="absolute" left="0" zIndex={0} top="40em">
+              <HeroWave></HeroWave>
+            </Flex>
           </Box>
 
           {/*-------- FEATURES SECTION --------*/}
@@ -46,6 +51,9 @@ const Home: NextPage = () => {
 
           {/*-------- C2A SECTION --------*/}
           <Call2Action />
+          <Flex position="absolute" left="0" zIndex={0} bottom="0">
+            <BottomWave></BottomWave>
+          </Flex>
         </main>
         <Flex
           height="50px"
@@ -55,6 +63,7 @@ const Home: NextPage = () => {
           bottom="0"
           background="transparent"
           width="100%"
+          color="white"
         >
           <Link href="/privacy">Privacy Notice</Link>
         </Flex>

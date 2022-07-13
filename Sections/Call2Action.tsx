@@ -21,7 +21,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
     >
       <Heading fontWeight="800" fontSize={{ base: '2.5em', lg: '4em' }} lineHeight={1}>
         What are you wating for?<br></br>
-        <span style={{ color: '#F04D61' }}>MatchUp</span> is waiting for you!
+        Let's <span style={{ color: '#F04D61' }}>MatchUp!</span>
       </Heading>
       <Flex gap="10px">
         <Button

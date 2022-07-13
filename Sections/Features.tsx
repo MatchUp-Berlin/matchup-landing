@@ -3,6 +3,7 @@ import React from 'react';
 import OverviewBG from '../public/overview-bg.png';
 import FeatureCard from '../components/FeatureCard';
 import SectionDivider from '../components/SectionDivider';
+import IsoBlob from '../components/Backgrounds/IsoBlob';
 
 export interface IFeaturesProps {}
 
@@ -11,10 +12,6 @@ const Features: React.FunctionComponent<IFeaturesProps> = () => {
     <Flex
       id="features"
       direction="column"
-      backgroundImage={` url('${OverviewBG.src}')`}
-      backgroundRepeat="no-repeat"
-      backgroundPosition="bottom"
-      backgroundSize="contain"
       width="100%"
       mb={{ base: '10em' }}
       justifyContent="flex-start"

@@ -1,5 +1,4 @@
-import { Box, Flex, Heading } from '@chakra-ui/react';
-import Image from 'next/image';
+import { Flex, Heading } from '@chakra-ui/react';
 import React from 'react';
 import SectionDivider from '../Components/SectionDivider';
 
@@ -9,18 +8,12 @@ const ShowCase: React.FunctionComponent<IShowCaseProps> = () => {
   return (
     <Flex
       id="ShowCase"
-      backgroundImage="/inspiration-bg.png"
-      position="relative"
-      backgroundRepeat="no-repeat"
-      backgroundPosition="top"
-      backgroundSize="contain"
       direction="column"
       width="100%"
       justifyContent="flex-start"
       alignItems="center"
       textAlign="center"
       gap="50px"
-      mb="10%"
     >
       <SectionDivider text="Showcase" />
       <Heading fontWeight="700" fontSize={{ base: '2em', lg: '3em' }}>
@@ -30,13 +23,22 @@ const ShowCase: React.FunctionComponent<IShowCaseProps> = () => {
       </Heading>
 
       {/* IMAGE WRAPPER */}
-      <iframe
-        src="https://www.youtube.com/embed/h0MSADwMrlY?controls=0"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+      <Flex
+        justifyContent="center"
+        alignItems="center"
+        width={{ base: '95vw', lg: '70vw' }}
+        height={{ base: '38vh', lg: '65vh' }}
+      >
+        <iframe
+          width="100%"
+          height="100%"
+          src="https://www.youtube.com/embed/h0MSADwMrlY?controls=0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </Flex>
     </Flex>
   );
 };
