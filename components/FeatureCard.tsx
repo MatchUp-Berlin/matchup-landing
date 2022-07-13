@@ -19,12 +19,12 @@ const FeatureCard: React.FunctionComponent<IFeatureCardProps> = ({ text, icon })
       alignItems="center"
       gap="15px"
       textAlign="center"
-      boxShadow="inset 0 0 0 1px #2f363d, 0 0px 8px -4px #0d1117"
+      boxShadow="inset 0 0 0 0px #3d2f2f, 0 0px 8px -5px #321e1e"
       backdropFilter="blur(2px)"
       transition="0.3s"
       _hover={{
         backdropFilter: 'blur(3px)',
-        boxShadow: 'inset 0 0 0 1px #162c41, 0 0px 35px -5px #152238',
+        boxShadow: 'inset 0 0 0 1px #F04D61, 0 0px 35px -5px #F04D61',
         transform: 'scale(1.05)',
       }}
     >

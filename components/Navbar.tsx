@@ -34,21 +34,32 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           listStyleType="none"
           cursor="pointer"
           transition="0.3s"
-          _hover={{ color: 'white', transform: 'scale(1.05)' }}
+          _hover={{ color: '#F04D61', transform: 'scale(1.05)' }}
         >
           Features
         </ListItem>
-        <Button
-          display={{ base: 'none', sm: 'flex' }}
+        <ListItem
           as="a"
-          href="https://matchup.vercel.app/"
-          rounded="full"
-          backgroundColor="#F04D61"
-          color="white"
-          _hover={{ transform: 'scale(1.05)' }}
+          href="https://testflight.apple.com/join/D5tNP4xt"
+          fontSize="lg"
+          listStyleType="none"
+          cursor="pointer"
+          transition="0.3s"
+          _hover={{ color: '#F04D61', transform: 'scale(1.05)' }}
         >
-          Download the app
-        </Button>
+          iOS Beta
+        </ListItem>
+        <ListItem
+          as="a"
+          href="https://play.google.com/store/apps/details?id=app.vercel.matchup.twa"
+          fontSize="lg"
+          listStyleType="none"
+          cursor="pointer"
+          transition="0.3s"
+          _hover={{ color: '#F04D61', transform: 'scale(1.05)' }}
+        >
+          Android Beta
+        </ListItem>
       </UnorderedList>
     </Flex>
   );

@@ -26,40 +26,35 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
             Local sports matches
             <br />
             that people
-            <span
-              style={{
-                backgroundImage: 'linear-gradient(207deg,#F04D61 23%,#a20719 87%)',
-                backgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                WebkitBackgroundClip: 'text',
-              }}
-            >
-              {' '}
-              actually commit to
-            </span>
+            <span style={{ color: '#F04D61' }}> actually commit to</span>
           </Heading>
           <Flex direction="column" alignItems="center" gap="5px">
             <Flex gap="10px">
               <Button
                 as="a"
-                href="https://matchup.vercel.app/"
-                rounded="full"
-                size="lg"
-                backgroundColor="#F04D61"
-                color="white"
-                _hover={{ transform: 'scale(1.05)' }}
-              >
-                Let's MatchUp!
-              </Button>
-              <Button
-                as="a"
-                href="https://youtu.be/h0MSADwMrlY"
+                href="https://testflight.apple.com/join/D5tNP4xt"
                 rounded="full"
                 size="lg"
                 variant="outline"
-                _hover={{ bg: '#ffffff40', color: 'white', transform: 'scale(1.05)' }}
+                borderColor="#F04D61"
+                borderWidth="2px"
+                color="#F04D61"
+                _hover={{ bg: '#F04D61', color: 'white', transform: 'scale(1.05)' }}
               >
-                Watch Showcase
+                iOS Beta
+              </Button>
+              <Button
+                as="a"
+                href="https://play.google.com/store/apps/details?id=app.vercel.matchup.twa"
+                rounded="full"
+                size="lg"
+                variant="outline"
+                borderColor="#F04D61"
+                borderWidth="2px"
+                color="#F04D61"
+                _hover={{ bg: '#F04D61', color: 'white', transform: 'scale(1.05)' }}
+              >
+                Android Beta
               </Button>
             </Flex>
           </Flex>

@@ -20,17 +20,7 @@ const Features: React.FunctionComponent<IFeaturesProps> = () => {
     >
       <SectionDivider text="Features" />
       <Heading fontWeight="700" fontSize={{ base: '2em', lg: '3em' }}>
-        MatchUp is{' '}
-        <span
-          style={{
-            backgroundImage: 'linear-gradient(29deg,#950415 0%,#f35d6e 87%)',
-            backgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            WebkitBackgroundClip: 'text',
-          }}
-        >
-          fair.
-        </span>
+        MatchUp is <span style={{ color: '#F04D61' }}>fair.</span>
         <br />
         Only commited people join the game!
       </Heading>
