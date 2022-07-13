@@ -10,6 +10,7 @@ import Link from 'next/link';
 import ShowCase from '../Sections/ShowCase';
 import HeroWave from '../components/Backgrounds/HeroWave';
 import BottomWave from '../components/Backgrounds/BottomWave';
+import TopWave from '../components/Backgrounds/TopWave';
 
 const Home: NextPage = () => {
   return (
@@ -38,7 +39,10 @@ const Home: NextPage = () => {
           >
             {/*-------- HERO SECTION --------*/}
             <Hero />
-            <Flex position="absolute" left="0" zIndex={0} top="40em">
+            <Flex position="absolute" left="0" zIndex={0} top="0">
+              <TopWave></TopWave>
+            </Flex>
+            <Flex position="absolute" left="0" zIndex={0} top="50em">
               <HeroWave></HeroWave>
             </Flex>
           </Box>

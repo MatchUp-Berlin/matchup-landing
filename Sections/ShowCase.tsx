@@ -1,6 +1,6 @@
 import { Flex, Heading } from '@chakra-ui/react';
 import React from 'react';
-import SectionDivider from '../Components/SectionDivider';
+import SectionDivider from '../components/SectionDivider';
 
 export interface IShowCaseProps {}
 

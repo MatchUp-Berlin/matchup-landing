@@ -16,7 +16,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
       {/* HERO TITLE */}
       <Flex gap={50} direction="column" justifyContent="center" alignItems="center">
         <Flex
-          minHeight="45vh"
+          minHeight="75vh"
           direction="column"
           textAlign="center"
           justifyContent="center"

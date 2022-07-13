@@ -12,10 +12,11 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
       alignItems="center"
       justifyContent="space-between"
       width="100%"
-      height="80px"
+      height="45px"
       mt={{ base: '10px', md: '20px' }}
       mr=" auto"
       ml=" auto"
+      zIndex={1}
     >
       <Link href="/">
         <Image
@@ -34,7 +35,8 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           listStyleType="none"
           cursor="pointer"
           transition="0.3s"
-          _hover={{ color: '#F04D61', transform: 'scale(1.05)' }}
+          color="white"
+          _hover={{ color: '#63000c', transform: 'scale(1.05)' }}
         >
           Features
         </ListItem>
@@ -45,7 +47,8 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           listStyleType="none"
           cursor="pointer"
           transition="0.3s"
-          _hover={{ color: '#F04D61', transform: 'scale(1.05)' }}
+          color="white"
+          _hover={{ color: '#63000c', transform: 'scale(1.05)' }}
         >
           iOS Beta
         </ListItem>
@@ -56,7 +59,8 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           listStyleType="none"
           cursor="pointer"
           transition="0.3s"
-          _hover={{ color: '#F04D61', transform: 'scale(1.05)' }}
+          color="white"
+          _hover={{ color: '#63000c', transform: 'scale(1.05)' }}
         >
           Android Beta
         </ListItem>

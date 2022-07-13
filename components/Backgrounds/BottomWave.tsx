@@ -4,9 +4,9 @@ const BottomWave: React.FunctionComponent = () => {
       <svg viewBox="0 0 1500 600" height="600" width="1500" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <g transform-origin="center" transform="scale(1, 1) rotate(0)">
           <rect x="0" y="0" width="1500" height="600" fill="#00243800"></rect>
-          <linearGradient id="linear-gradient-r0">
-            <stop offset="0%" stopColor="#f04d6145" stopOpacity="100%"></stop>
-            <stop offset="100%" stopColor="#f04d6112" stopOpacity="100%"></stop>
+          <linearGradient id="linear-gradient-r3">
+            <stop offset="0%" stopColor="#f04d6079" stopOpacity="100%"></stop>
+            <stop offset="100%" stopColor="#f04d6074" stopOpacity="100%"></stop>
           </linearGradient>
           <filter id="shadow-r0" x="0" width="100%" y="-20%" height="150%">
             <feDropShadow dx="0" dy="0" stdDeviation="10" floodColor="#0000002e"></feDropShadow>
@@ -19,7 +19,7 @@ const BottomWave: React.FunctionComponent = () => {
             strokeWidth="1"
             style={{
               transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s',
-              fill: "url('#linear-gradient-r0')",
+              fill: "url('#linear-gradient-r3')",
             }}
           ></path>
           <path
@@ -30,7 +30,7 @@ const BottomWave: React.FunctionComponent = () => {
             strokeWidth="1"
             style={{
               transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s',
-              fill: "url('#linear-gradient-r0')",
+              fill: "url('#linear-gradient-r3')",
             }}
           ></path>
           <path
@@ -41,7 +41,7 @@ const BottomWave: React.FunctionComponent = () => {
             strokeWidth="1"
             style={{
               transition: 'all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s',
-              fill: "url('#linear-gradient-r0')",
+              fill: "url('#linear-gradient-r3')",
             }}
           ></path>
         </g>
