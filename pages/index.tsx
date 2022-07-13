@@ -7,6 +7,7 @@ import Features from '../Sections/Features';
 
 import Hero from '../Sections/Hero';
 import Link from 'next/link';
+import ShowCase from '../Sections/ShowCase';
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +19,7 @@ const Home: NextPage = () => {
         css="/static/css/styles.css"
         js="/static/js/scripts.js"
       /> */}
-      <div style={{ fontFamily: 'Karla, sans-serif'}}>
+      <div style={{ fontFamily: 'Karla, sans-serif' }}>
         <Head>
           <title>MatchUp - Join sports events in your city</title>
           <meta name="Home - MatchUp" content="MatchUp - Join sports events in your city<" />
@@ -39,6 +40,9 @@ const Home: NextPage = () => {
 
           {/*-------- FEATURES SECTION --------*/}
           <Features />
+
+          {/*-------- SHOWCASE SECTION --------*/}
+          <ShowCase />
 
           {/*-------- C2A SECTION --------*/}
           <Call2Action />
