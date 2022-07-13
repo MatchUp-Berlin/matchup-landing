@@ -6,7 +6,6 @@ export interface ICall2ActionProps {}
 const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
   return (
     <Flex
-      backgroundImage="radial-gradient(circle farthest-corner at -75% 0%,#f9b5b5 0%,rgb(255, 255, 255,0) 48%),radial-gradient(circle farthest-corner at 25% -20%,#ffffff 50%,rgb(255, 255, 255,0)100%),radial-gradient(circle farthest-corner at -55% -100%,rgb(255, 255, 255,0) 55%,rgba(255,255,255,.28) 65%,rgb(255, 255, 255,0) 68%),radial-gradient(circle farthest-corner at -33% -75%,#F04D61 48%,rgba(255,255,255,0) 56%),radial-gradient(circle farthest-side at 0 50%,rgb(255, 255, 255,0) 64%,rgba(255,255,255,.4) 69%,rgb(255, 255, 255,0) 81%),radial-gradient(circle farthest-corner at 0 50%,rgb(255, 255, 255,0) 33%,#F04D61 51%,rgb(255, 255, 255,0) 72%)"
       position="relative"
       backgroundRepeat="no-repeat"
       backgroundPosition="bottom"

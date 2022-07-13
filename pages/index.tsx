@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             className="gradient-bg"
             padding={{ base: '0 1.5em', lg: '0 10em' }}
             bgPos="top"
-            bgImage="linear-gradient(0,rgb(255, 255, 255,0) 7%,rgb(255, 255, 255, 0) 20%),radial-gradient(circle farthest-side at -170% 170%,#F04D61 48%,rgb(255, 255, 255,0) 65%),radial-gradient(circle farthest-corner at -55% -125%,rgb(255, 255, 255,0) 50%,rgb(255, 255, 255) 70%,rgb(255, 255, 255,0) 72%),radial-gradient(circle farthest-corner at 0 -50%,rgb(255, 255, 255) 32%,hsla(0,0%,100%,0) 62%),radial-gradient(circle farthest-side at 0 -25%,#F04D61 50%,rgb(255, 255, 255,1) 72%),radial-gradient(circle farthest-corner at 50% -100%,#F04D61 26%,rgb(255, 255, 255,0) 72%);"
+            // bgImage="linear-gradient(0,rgb(255, 255, 255,0) 7%,rgb(255, 255, 255, 0) 20%),radial-gradient(circle farthest-side at -170% 170%,#F04D61 48%,rgb(255, 255, 255,0) 65%),radial-gradient(circle farthest-corner at -55% -125%,rgb(255, 255, 255,0) 50%,rgb(255, 255, 255) 70%,rgb(255, 255, 255,0) 72%),radial-gradient(circle farthest-corner at 0 -50%,rgb(255, 255, 255) 32%,hsla(0,0%,100%,0) 62%),radial-gradient(circle farthest-side at 0 -25%,#F04D61 50%,rgb(255, 255, 255,1) 72%),radial-gradient(circle farthest-corner at 50% -100%,#F04D61 26%,rgb(255, 255, 255,0) 72%);"
           >
             {/*-------- HERO SECTION --------*/}
             <Hero />

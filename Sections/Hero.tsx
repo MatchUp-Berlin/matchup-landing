@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import Navbar from '../components/Navbar';
 import MockUp from '../public/mockup.png';
+import HeroBG from '../public/inspiration-bg.png';
 
 export interface IHeroProps {}
 
@@ -17,6 +18,10 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
         <Flex
           minHeight="75vh"
           direction="column"
+          backgroundImage={` url('${HeroBG.src}')`}
+          backgroundRepeat="no-repeat"
+          backgroundPosition="bottom"
+          backgroundSize="contain"
           textAlign="center"
           justifyContent="center"
           alignItems="center"
