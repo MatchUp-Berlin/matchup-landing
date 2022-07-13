@@ -31,8 +31,6 @@ const ShowCase: React.FunctionComponent<IShowCaseProps> = () => {
 
       {/* IMAGE WRAPPER */}
       <iframe
-        width="800"
-        height="430"
         src="https://www.youtube.com/embed/h0MSADwMrlY?controls=0"
         title="YouTube video player"
         frameBorder="0"
