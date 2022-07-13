@@ -36,6 +36,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           cursor="pointer"
           transition="0.3s"
           color="white"
+          display={{ base: 'none', sm: 'inherit' }}
           _hover={{ color: '#63000c', transform: 'scale(1.05)' }}
         >
           Features

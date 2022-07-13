@@ -27,7 +27,7 @@ const ShowCase: React.FunctionComponent<IShowCaseProps> = () => {
         justifyContent="center"
         alignItems="center"
         width={{ base: '95vw', lg: '70vw' }}
-        height={{ base: '38vh', lg: '65vh' }}
+        height={{ base: '30vh', lg: '65vh' }}
       >
         <iframe
           width="100%"

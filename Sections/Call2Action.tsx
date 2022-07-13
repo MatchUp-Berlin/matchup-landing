@@ -13,10 +13,11 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
       direction="column"
       textAlign="center"
       gap="20px"
-      justifyContent="center"
+      justifyContent={{ base: 'flex-start', lg: 'center' }}
       alignItems="center"
       width="100%"
-      height="100vh"
+      marginTop={{ base: '5em', lg: 0 }}
+      height={{ base: '50vh', lg: '100vh' }}
       padding={['0 1.5em']}
     >
       <Heading fontWeight="800" fontSize={{ base: '2.5em', lg: '4em' }} lineHeight={1}>
