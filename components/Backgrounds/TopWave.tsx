@@ -3,7 +3,6 @@ const SvgDesign: React.FunctionComponent = () => {
     <>
       <svg viewBox="0 0 3000 200" height="200" width="3000" xmlns="http://www.w3.org/2000/svg" version="1.1">
         <g transform-origin="center" transform="scale(1, -1) rotate(0)">
-          <rect x="0" y="0" width="3000" height="200" fill="#00243800"></rect>
           <linearGradient id="linear-gradient-ra">
             <stop offset="0%" stopColor="#F04D61" stopOpacity="100%"></stop>
             <stop offset="100%" stopColor="#F04D61" stopOpacity="100%"></stop>

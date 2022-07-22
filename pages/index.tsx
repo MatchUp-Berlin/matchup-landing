@@ -9,8 +9,9 @@ import Hero from '../Sections/Hero';
 import Link from 'next/link';
 import ShowCase from '../Sections/ShowCase';
 import HeroWave from '../components/Backgrounds/HeroWave';
-import BottomWave from '../components/Backgrounds/BottomWave';
+import BottomWave from '../public/bottom-wave.svg';
 import TopWave from '../components/Backgrounds/TopWave';
+import Image from 'next/image';
 
 const Home: NextPage = () => {
   return (
@@ -55,9 +56,21 @@ const Home: NextPage = () => {
 
           {/*-------- C2A SECTION --------*/}
           <Call2Action />
-          <Flex position="absolute" left="0" zIndex={0} bottom="0">
-            <BottomWave></BottomWave>
-          </Flex>
+          <Box
+            position="absolute"
+            w={{ base: '300vw', md: '100vw' }}
+            h="250px"
+            left="0"
+            zIndex={0}
+            bottom="0"
+          >
+            <Image
+              src={BottomWave}
+              objectFit="cover"
+              layout="fill"
+              alt="footer-illustration"
+            />
+          </Box>
         </main>
         <Flex
           height="50px"

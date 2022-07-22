@@ -1,0 +1,22 @@
+<svg viewBox="0 0 896 250" height="250" width="896" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<g transform-origin="center" transform="scale(1, 1) rotate(0)">
+		<rect x="0" y="0" width="896" height="250" fill="#00243800">
+		</rect>
+		<linearGradient id="linear-gradient-r0">
+			<stop offset="0%" stop-color="#EF4B5F" stop-opacity="100%">
+			</stop>
+			<stop offset="100%" stop-color="#EF4B5F" stop-opacity="100%">
+			</stop>
+		</linearGradient>
+		<filter id="shadow-r0" x="0" width="100%" y="-20%" height="150%">
+			<feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#00000061">
+			</feDropShadow>
+		</filter>
+		<path d="M0 0 0,82.76259979605673 C 44.800000000000004,83.68299276828765 134.39999999999998,88.45484948356945 224,87.36456465721129 C 313.6,86.27427983085313 358.4,78.60234460135298 448,77.31117566426593 C 537.6,76.02000672717887 582.4,81.87698114911714 672,80.908719971776 C 761.6,79.94045879443485 851.2,74.15763981640337 896,72.46986977756022 L896 250 L0 250Z" fill="none" stroke-linecap="round" stroke-width="1" style="transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s; fill: url(&quot;#linear-gradient-r0&quot;);">
+		</path>
+		<path d="M0 0 0,126.98505662232637 C 44.8,126.7580323695143 134.4,123.29340234686934 224,125.84993535826604 C 313.6,128.40646836966278 358.4,140.91387451817593 448,139.76772167931 C 537.6,138.62156884044407 582.4,120.39701463967563 672,120.11917116393646 C 761.6,119.8413276881973 851.2,134.72663767327865 896,138.3785043006142 L896 250 L0 250Z" fill="none" stroke-linecap="round" filter="url(#shadow-r0)" stroke-width="1" style="transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s; fill: url(&quot;#linear-gradient-r0&quot;);">
+		</path>
+		<path d="M0 0 0,189.73616510629654 C 44.800000000000004,187.36755699157715 134.4,174.46494374990462 224,177.89312453269957 C 313.6,181.32130531549453 358.4,202.4969350576401 448,206.8770690202713 C 537.6,211.25720298290253 582.4,198.91457520008086 672,199.7937943458557 C 761.6,200.67301349163054 851.2,208.97729066848754 896,211.2731647491455 L896 250 L0 250Z" fill="none" stroke-linecap="round" filter="url(#shadow-r0)" stroke-width="1" style="transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) 0s; fill: url(&quot;#linear-gradient-r0&quot;);">
+		</path>
+	</g>
+</svg>

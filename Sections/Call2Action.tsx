@@ -17,7 +17,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
       alignItems="center"
       width="100%"
       marginTop={{ base: '5em', lg: 0 }}
-      height={{ base: '50vh', lg: '100vh' }}
+      height={{ base: '60vh', lg: '120vh' }}
       padding={['0 1.5em']}
     >
       <Heading fontWeight="800" fontSize={{ base: '2.5em', lg: '4em' }} lineHeight={1}>
