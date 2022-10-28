@@ -45,7 +45,7 @@ const Hero: React.FunctionComponent<IHeroProps> = () => {
 						<Flex gap='10px'>
 							<Button
 								as='a'
-								href='http://app.getmatchup.org'
+								href='https://app.getmatchup.org'
 								rounded='full'
 								size='lg'
 								variant='outline'

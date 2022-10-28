@@ -48,7 +48,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
 				</ListItem>
 				<ListItem
 					as='a'
-					href='http://app.getmatchup.org'
+					href='https://app.getmatchup.org'
 					fontSize='lg'
 					listStyleType='none'
 					cursor='pointer'

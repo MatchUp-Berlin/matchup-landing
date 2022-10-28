@@ -31,7 +31,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
 			<Flex gap='10px'>
 				<Button
 					as='a'
-					href='http://app.getmatchup.org'
+					href='https://app.getmatchup.org'
 					rounded='full'
 					size='lg'
 					variant='outline'
