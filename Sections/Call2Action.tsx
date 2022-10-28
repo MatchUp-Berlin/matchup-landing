@@ -33,7 +33,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
 					as='a'
 					href='https://app.getmatchup.org'
 					rounded='full'
-					size='lg'
+					size={['md', 'lg']}
 					variant='outline'
 					borderColor='#F04D61'
 					borderWidth='2px'
@@ -50,7 +50,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
 					as='a'
 					href='https://testflight.apple.com/join/D5tNP4xt'
 					rounded='full'
-					size='lg'
+					size={['md', 'lg']}
 					variant='outline'
 					borderColor='#F04D61'
 					borderWidth='2px'
@@ -67,7 +67,7 @@ const Call2Action: React.FunctionComponent<ICall2ActionProps> = (props) => {
 					as='a'
 					href='https://play.google.com/store/apps/details?id=app.vercel.matchup.twa'
 					rounded='full'
-					size='lg'
+					size={['md', 'lg']}
 					variant='outline'
 					borderColor='#F04D61'
 					borderWidth='2px'

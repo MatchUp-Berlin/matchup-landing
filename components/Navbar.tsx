@@ -49,7 +49,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
 				<ListItem
 					as='a'
 					href='https://app.getmatchup.org'
-					fontSize='lg'
+					fontSize={['md', 'lg']}
 					listStyleType='none'
 					cursor='pointer'
 					transition='0.3s'
@@ -61,7 +61,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
 				<ListItem
 					as='a'
 					href='https://testflight.apple.com/join/D5tNP4xt'
-					fontSize='lg'
+					fontSize={['md', 'lg']}
 					listStyleType='none'
 					cursor='pointer'
 					transition='0.3s'
@@ -73,7 +73,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
 				<ListItem
 					as='a'
 					href='https://play.google.com/store/apps/details?id=app.vercel.matchup.twa'
-					fontSize='lg'
+					fontSize={['md', 'lg']}
 					listStyleType='none'
 					cursor='pointer'
 					transition='0.3s'
